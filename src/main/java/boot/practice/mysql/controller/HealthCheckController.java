@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RestController
 @RequestMapping("/healthCheck")
-public class HealthController {
+public class HealthCheckController {
 
     @GetMapping(produces = "application/json")
     public ResponseEntity<String> healthCheck(){
